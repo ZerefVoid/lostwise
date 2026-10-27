@@ -6,18 +6,18 @@ node_modules/
 .env.*
 !.env.example
 
-# Foto yang diunggah pengguna
+# Photo
 server/uploads/*
 !server/uploads/.gitkeep
 
-# Hasil build
+# Build
 client/dist/
 
 # Log
 *.log
 npm-debug.log*
 
-# File sistem dan editor
+# File System
 .DS_Store
 Thumbs.db
 .vscode/
