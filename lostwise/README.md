@@ -10,6 +10,8 @@ A campus lost-and-found web app: report, search and match lost items, verify the
 
 Demo accounts (password `demo1234`): riley@campus.edu, ben@campus.edu, admin@lostwise.app
 
+**Database (optional):** import `schema.sql` into your MySQL database to create all tables automatically.
+
 The database is named `lostwise`. If you ran an older version of this project, create the new database with the steps above; the old database is not touched.
 
 ## Folder structure
