@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Foto yang diunggah pengguna
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Hasil build
+client/dist/
+
+# Log
+*.log
+npm-debug.log*
+
+# File sistem dan editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
